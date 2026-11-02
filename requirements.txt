@@ -1,4 +1,4 @@
-vk-api
+vk-api==11.9.9
 requests
 lyricsgenius
 Pillow
