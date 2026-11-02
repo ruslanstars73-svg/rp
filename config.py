@@ -1,5 +1,8 @@
 import os
 
+# Bothost запускает бота из /app, поэтому данные всегда в /app/data
+DATA_DIR = "/app/data" if os.path.exists("/app") else "data"
+
 # ========== ТОКЕНЫ ==========
 BOT_TOKEN = "vk1.a.DTZN636-NBwhymUhn5PhyRwxJaTWSkW5wnPM_LyZTeqswU1kbqHZQznSn1iI9j5QVlAE72BVWlRFLvBX1PTDeFlzflyK5pvGKZUZ8e2zX-2Se8bZ0EKz5hwGeAiJhFWLoSN-v8O1ekqjT322XbG1JFLav062DJQmtF1DSsHxePXpThYxSC6VgvCJa35lcEkbpsyUhLPFnrqlFIfMjkmUlA"
 USER_TOKEN = "vk1.a.r3OSNtIm7ng8dBYvs-6rs8XYCbd3nR0H519_5XKICJ1RQhevguvwJC0Vxt465Fw9m_RNYuWttX4s02fZlkimM1mN4Mrhp3DetvEQ7UHp2KIDl5m3TG-C2Ria9-NSm0a-eAw9qFAOqWBmPBR9zf2QKBfTkkAxIF0jl12fqXcW0WjCOCaAj5V5aSJ-nOkt-LktaUvbi1g1aTilfPBBsvxicg"
