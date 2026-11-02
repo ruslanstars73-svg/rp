@@ -1,0 +1,6 @@
+vk-api
+requests
+lyricsgenius
+Pillow
+python-dotenv
+urllib3
